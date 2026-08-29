@@ -1,0 +1,47 @@
+[
+  {
+    "action_id": "NO_ACTION",
+    "label": "No action",
+    "steady_load_delta_w": 0,
+    "transient_extra_w": 0,
+    "transient_duration_s": 0,
+    "heat_delta_w": 0,
+    "recovery_bonus": 0
+  },
+  {
+    "action_id": "SHED_PAYLOAD",
+    "label": "Shed non-critical payload",
+    "steady_load_delta_w": -2.4,
+    "transient_extra_w": 0,
+    "transient_duration_s": 0,
+    "heat_delta_w": -0.7,
+    "recovery_bonus": 0.72
+  },
+  {
+    "action_id": "REDUCE_COMPUTE",
+    "label": "Throttle onboard compute",
+    "steady_load_delta_w": -1.2,
+    "transient_extra_w": 0,
+    "transient_duration_s": 0,
+    "heat_delta_w": -0.5,
+    "recovery_bonus": 0.55
+  },
+  {
+    "action_id": "SAFE_MODE",
+    "label": "Enter power-safe mode",
+    "steady_load_delta_w": -3.4,
+    "transient_extra_w": 0,
+    "transient_duration_s": 0,
+    "heat_delta_w": -0.9,
+    "recovery_bonus": 0.9
+  },
+  {
+    "action_id": "RESTART_ADCS",
+    "label": "Restart ADCS controller",
+    "steady_load_delta_w": -0.3,
+    "transient_extra_w": 5,
+    "transient_duration_s": 3,
+    "heat_delta_w": 0.4,
+    "recovery_bonus": 0.82
+  }
+]

@@ -1,0 +1,16 @@
+services:
+  simulator:
+    build:
+      context: ./apps/simulator
+    ports:
+      - "8000:8000"
+  web:
+    build:
+      context: ./apps/web
+    environment:
+      NEXT_PUBLIC_SIM_API_URL: http://localhost:8000
+      NEXT_PUBLIC_SIM_WS_URL: ws://localhost:8000/ws/events
+    ports:
+      - "7860:7860"
+    depends_on:
+      - simulator

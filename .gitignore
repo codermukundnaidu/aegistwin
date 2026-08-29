@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+test-results/
+playwright-report/
+.env
+.env.local
+*.log
+npm-debug.log*

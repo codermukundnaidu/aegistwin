@@ -1,0 +1,29 @@
+[
+  {
+    "claim_id": "C-001",
+    "claim": "AEGIS-TWIN is an architecture and reduced-order demonstrator, not flight-qualified spacecraft software.",
+    "claim_type": "PROJECT DESIGN DECISION",
+    "source_owner": "AEGIS-TWIN",
+    "source_id": "LOCAL_REQUIREMENT",
+    "status": "verified",
+    "website_sections": ["evidence", "sandbox", "demo"]
+  },
+  {
+    "claim_id": "C-002",
+    "claim": "AI diagnostic confidence is displayed separately from physical safety validation.",
+    "claim_type": "PROJECT DESIGN DECISION",
+    "source_owner": "AEGIS-TWIN",
+    "source_id": "PROTOCOL_CONTRACT",
+    "status": "verified",
+    "website_sections": ["protocol", "sandbox"]
+  },
+  {
+    "claim_id": "C-003",
+    "claim": "The measured bus voltage is reconciled into the initial electrical state estimate.",
+    "claim_type": "MEASURED PROTOTYPE RESULT",
+    "source_owner": "AEGIS-TWIN",
+    "source_id": "ROM_0_3",
+    "status": "implemented",
+    "website_sections": ["sandbox", "evidence"]
+  }
+]

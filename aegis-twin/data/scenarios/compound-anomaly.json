@@ -1,0 +1,14 @@
+{
+  "id": "compound-anomaly",
+  "label": "Compound anomaly",
+  "state": {
+    "measured_bus_voltage_v": 6.9,
+    "soc_pct": 36,
+    "battery_temp_c": 42,
+    "electronics_temp_c": 51,
+    "solar_power_w": 2.8,
+    "base_load_w": 7.1,
+    "anomaly_extra_load_w": 3.1,
+    "anomaly_heat_w": 2.4
+  }
+}
